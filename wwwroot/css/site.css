@@ -1,0 +1,116 @@
+
+body{
+	background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2655.jpg?auto=format&h=200);
+	text-decoration:none ;
+	color:black;
+	background-size: 100% 110vh; 
+	background-repeat: no-repeat;
+	background-attachment:  fixed;
+}
+.RealEstateFirstDiv
+{
+	width: 100%;
+	display: inline-block;
+	background: lightgray;
+	transition:0.5s;
+
+}
+.RealEstateFirstDiv:hover
+{
+	background: gray;
+	transition:0.5s;
+}
+.RealEstateSecondBlock
+{
+	width:58%;
+	display:inline-block;
+}
+
+.RealEstateName 
+{
+	margin-left:3%;
+	font-size:30px;
+	display:inline-block;
+	text-align: left;
+}
+.RealEstateImg
+{
+	width: 25%;
+	
+	display:inline-block;
+}
+.RealEstatePrice
+{
+	text-align: right;
+	font-size: calc(12px + 0.4vw);
+	
+}
+.RealEstateRegion
+{
+	margin-bottom:2vh;
+
+	margin-left:2%;
+display:inline-block;
+font-size: calc(10px + 0.4vw);
+
+}
+.RealEstateRegionArea
+{
+font-size:calc(10px + 0.4vw);
+margin-left: 2%;
+}
+.RealEstateAbouteTovarView
+{
+	font-size:20px;
+}
+.RealEstateAbouteTovarFio
+{
+	text-align: right;
+	font-size:20px;
+
+}
+.RealEstateAbouteTovarComfort
+{
+	font-size:20px;
+}
+.RealEstateAbouteTovarCity
+{
+	font-size:20px;
+}
+.RealEstateAbouteTovarDescription
+{
+	font-size:24px;
+}
+
+.RealEstateAbouteTovarImg{
+	width: 28%;
+
+	display: inline-block;
+}
+
+.RealEstateAbouteTovarSecondBlock{
+	display: inline-block;
+	width: 98%;
+}
+
+.RealEstateAbouteTovarName {
+	margin-left:3%;
+	font-size:30px;
+	display:inline-block;
+	text-align: left;
+}
+
+.RealEstateAbouteTovarPrice{
+	font-size:30px;
+	text-align: right;
+}
+
+.RealEstateAbouteTovarRegion{
+	font-size:20px;
+
+}
+
+.RealEstateAbouteTovarArea{
+	font-size:20px;
+
+}

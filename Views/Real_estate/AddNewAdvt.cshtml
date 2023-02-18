@@ -1,0 +1,60 @@
+﻿
+
+
+<form asp-controller="Real_estate" asp-action="AddNewEstate">
+    <select>
+        <option value="0">Тип объявления</option>
+        <option value="1">дома</option>
+        <option value="2">квартиры</option>
+        <option value="3">дачи</option>
+        <option value="4">гаражи</option>
+
+    </select>
+    <label>Название</label>
+    <input name="name" type="text" placeholder="Название" />
+    <br />
+
+    <label>Описание</label>
+    <input name="description" type="text" placeholder="Описание" />
+    <br />
+    <label>Цена</label>
+    <input name="price" type="number" placeholder="Цена"/>
+    <br />
+    <label>Изображения</label>
+    <input name="img" type="file" placeholder="Изображения" />
+    <br />
+    <label>Регион</label>
+    <input name="region" type="text" placeholder="Регион" />
+    <br />
+    <label>Вид</label>
+    <input name="view" type="text" placeholder="Вид" />
+    <br />
+    <label>Площадь</label>
+    <input name="area" type="text" placeholder="Площадь" />
+    <br />
+    <label>Комфорт</label>
+    <input name="comfort" type="text" placeholder="Комфорт" />
+    <br />
+    <label>Наличие участка</label>
+    <input name="site_availability" type="checkbox" placeholder="Наличие участка" />
+    <br />
+   
+    <input type="submit" value="создать" />
+
+
+</form>
+
+
+     public int id;
+        public string name;
+        public string description;
+        public int price;
+        public string img;
+        public string region;
+        public string city;
+        public string view; //вид
+        public string area; //площадь
+        public string comfort;
+        public string fio;
+        public string numberTelephone;
+        public bool site_availability; //Наличие участка

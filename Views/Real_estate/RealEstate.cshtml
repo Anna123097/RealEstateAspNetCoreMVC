@@ -1,0 +1,45 @@
+﻿@{
+	for(int i = 0; i < Model.Count; i++)
+	{
+
+
+        <a href="~/Real_estate/aboutTovar?id=@Model[i].id" class="RealEstateFirstDiv">
+        <div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4">
+    <img width="100%" height="70%" src="@Model[i].img"> 
+    </div>
+     <div class="col-md-8">
+      <div class="RealEstateName"> @Model[i].name  </div>
+       
+        <div class="RealEstatePrice">@Model[i].price грн</div>
+        <div class="RealEstateRegion">Область: @Model[i].region</div>
+        <br>
+         <div class="RealEstateRegionArea">Площадь: @Model[i].area</div>
+        </div>
+    </div>
+  </div>
+  
+     </a>
+   
+  
+
+
+	}
+}
+
+
+
+@* public string name;
+        public string description;
+        public int price;
+     
+        public string img;
+        public string region;
+        public string сity;
+        public string view; //вид
+        public string area; //площадь
+        public string comfort;
+        public string fio;
+        public string numberTelephone;
+        public bool site_availability; //Наличие участка*@
